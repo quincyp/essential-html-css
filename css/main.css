@@ -34,7 +34,7 @@ body{
 
 
 /*Headings*/
-header {
+header, h1, h2, h3 {
 	font-family: 'Raleway', 'Helvetica Neue','Helvetica', sans-serif;
 	font-weight: 300;
 
@@ -56,9 +56,9 @@ h3 {
 /*Main Page Content*/
 article {
     margin-left: 30%; 
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
     background-image: url("../img/ricepaper_v3.png");
     opacity: 0.9;
 } 
@@ -104,9 +104,9 @@ dd {
 /*Footer*/
 footer {
     margin-left: 30%; 
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
     opacity: 0.9;
 	background-color: #FC892F;
 	border-top: 5px;
