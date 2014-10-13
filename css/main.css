@@ -41,7 +41,7 @@ header {
 }
 h1{
 	font-size: 300%;
-	margin: 0 0 0 0;
+	margin: 0px 0px 0px 0px;
 }
 h2, h3{
 	color: #505050;
@@ -52,16 +52,29 @@ h2 {
 h3 {
 	font-size: 125%;
 }
-	color: red;
-	text-align: center
-}
 
 /*Main Page Content*/
-/*DOES THIS MARGIN WORK BELOW?*/
-p {
+article {
     margin-left: 30%; 
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
     background-image: url("../img/ricepaper_v3.png");
+    opacity: 0.9;
 } 
+
+/*Page Header*/
+header {
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px;
+	border-bottom-color: #EA4A00;
+	color: #FFFFFF;
+}
+#tag-line {
+	font-size: 120%;
+	color: #EEEEEE;
+	margin: 0px 0px 0px 0px;
+}
+
+/*Restaurant Info Section*/
