@@ -45,16 +45,18 @@ h1{
 }
 h2, h3{
 	color: #505050;
+	
 }
 h2 {
 	font-size: 150%;
+	margin: 0px 0px 0px 0px;
 }
 h3 {
 	font-size: 125%;
 }
 
 /*Main Page Content*/
-article {
+main {
     margin-left: 30%; 
     margin-top: 0px;
     margin-bottom: 0px;
@@ -62,13 +64,9 @@ article {
     background-image: url("../img/ricepaper_v3.png");
     opacity: 0.9;
 } 
-html{
-	overflow: auto;
-}
 
 /*Page Header*/
 header {
-	padding: 1em;
 	background-color: #FA5A0F;
 	border-bottom: 5px;
 	border-bottom-color: #EA4A00;
@@ -103,11 +101,6 @@ dd {
 
 /*Footer*/
 footer {
-    margin-left: 30%; 
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    opacity: 0.9;
 	background-color: #FC892F;
 	border-top: 5px;
 	border-color: #EC791F;
