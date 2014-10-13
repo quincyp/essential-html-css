@@ -62,6 +62,9 @@ article {
     background-image: url("../img/ricepaper_v3.png");
     opacity: 0.9;
 } 
+html{
+	overflow: auto;
+}
 
 /*Page Header*/
 header {
@@ -77,4 +80,37 @@ header {
 	margin: 0px 0px 0px 0px;
 }
 
-/*Restaurant Info Section*/
+/*Restaurant Info Section && About Us*/
+/*Padding Many*/
+header, #gen-info, #menu, #about-us, footer{
+	padding: 1em 1em 1em 1em;
+}
+
+/*Menu*/
+#menu {
+	background-image: none;
+	background-color: rgba(207,205,140,0.5);
+}
+dt {
+	font-weight: 400;
+}
+dd {
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+/*Footer*/
+footer {
+    margin-left: 30%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    opacity: 0.9;
+	background-color: #FC892F;
+	border-top: 5px;
+	border-color: #EC791F;
+	font-size: 80%;
+	text-align: right;
+}
